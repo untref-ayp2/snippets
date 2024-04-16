@@ -7,5 +7,7 @@ Este repositorio contiene fragmentos de código que ejemplifican el uso de diver
 ```shell
 .
 └── stack
-    └── main.go # Ejemplo de uso de una pila
+    ├── invertir_cadena
+    │   └── main.go     # Uso de una pila para invertir una cadena
+    └── main.go         # Ejemplo básico de uso de una pila
 ```
