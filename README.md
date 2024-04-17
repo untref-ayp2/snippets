@@ -6,6 +6,8 @@ Este repositorio contiene fragmentos de código que ejemplifican el uso de diver
 
 ```shell
 .
+└── dictionary
+    └── main.go         # Ejemplo básico de uso de un diccionario
 └── stack
     ├── invertir_cadena
     │   └── main.go     # Uso de una pila para invertir una cadena
