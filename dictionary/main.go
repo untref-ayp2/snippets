@@ -15,7 +15,7 @@ func main() {
 	d.Put("Fabi", 36)
 	d.Put("Leo", 60)
 	d.Put("Fede", 36)
-	d.Put("Vale", 40)
+	d.Put("Vale", 35)
 	d.Put("Leo", 50)
 
 	fmt.Println("Clave: valor en el diccionario (String, Int)")
@@ -25,7 +25,10 @@ func main() {
 	d.Remove("Fede")
 
 	fmt.Println("Borre a Fede")
-	fmt.Println("Al pedirle al diccionario el valor para Fede me da como resultado: ", d.Get("Fede"))
+	fmt.Println(
+		"Al pedirle al diccionario el valor para Fede me da como resultado: ",
+		d.Get("Fede"),
+	)
 	fmt.Println("--------------------")
 	fmt.Println("Clave: valor en el diccionario sin Fede (String, Int)")
 	fmt.Println(d)
