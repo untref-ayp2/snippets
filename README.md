@@ -7,15 +7,17 @@ Este repositorio contiene fragmentos de código que ejemplifican el uso de diver
 ```shell
 .
 ├── dictionary
-│   ├── estaBalanceada  #Solución del ejercicio de la guía 2 usando stack, set y diccionario
+│   ├── estaBalanceada      #Solución del ejercicio de la guía 2 usando stack, set y diccionario
+│   │   ├── balanceada_test.go
 │   │   └── main.go
-│   └── main.go         # Ejemplo básico de uso de un diccionario
+│   └── main.go             # Ejemplo básico de uso de un diccionario
 ├── go.mod
 ├── go.sum
 ├── README.md
 └── stack
-    ├── invertir_cadena
-    │   └── main.go     # Uso de una pila para invertir una cadena
-    └── main.go         # Ejemplo básico de uso de una pila
-
+    ├── invertir_cadena     # Uso de una pila para invertir una cadena
+    │   └── main.go
+    └── main.go             # Ejemplo básico de uso de una pila
 ```
+
+
