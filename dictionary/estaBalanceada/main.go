@@ -8,6 +8,11 @@ import (
 	"github.com/untref-ayp2/data-structures/stack"
 )
 
+func main() {
+	fmt.Println("¿La cadena \"()]{}{[()()]()}\" esta balanceada?", Balanceada("[()]{}{[()()]()}"))
+	fmt.Println("¿La cadena \"[(])\" esta balanceada?", Balanceada("[(])"))
+}
+
 // Reescribir la función que evalúa si una cadena de paréntesis, corchetes y
 // llaves está bien balanceada. Devuelve `true` si está bien balanceada y
 // `false` si está mal balanceada. Por ejemplo: `()]{}{[()()]()}` debe
@@ -17,12 +22,6 @@ import (
 // ** un conjunto para almacenar los simbolos de apertura y
 // ** un diccionario para recuperar el complemento del simbolo que se dasapila
 // Analizar el orden.
-
-func main() {
-	fmt.Println("¿La cadena \"()]{}{[()()]()}\" esta balanceada?", Balanceada("[()]{}{[()()]()}"))
-	fmt.Println("¿La cadena \"[(])\" esta balanceada?", Balanceada("[(])"))
-}
-
 func Balanceada(cadena string) bool {
 	deAbrir := set.NewListSet("(", "[", "{")
 	parcito := dictionary.NewDictionary[string, string]()
