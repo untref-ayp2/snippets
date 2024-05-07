@@ -25,10 +25,8 @@ func main() {
 	d.Remove("Fede")
 
 	fmt.Println("Borre a Fede")
-	fmt.Println(
-		"Al pedirle al diccionario el valor para Fede me da como resultado: ",
-		d.Get("Fede"),
-	)
+	val, _ := d.Get("Fede")
+	fmt.Println("Al pedirle al diccionario el valor para Fede me da como resultado: ", val)
 	fmt.Println("--------------------")
 	fmt.Println("Clave: valor en el diccionario sin Fede (String, Int)")
 	fmt.Println(d)

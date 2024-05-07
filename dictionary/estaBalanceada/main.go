@@ -37,7 +37,8 @@ func Balanceada(cadena string) bool {
 			s.Push(c)
 		} else { // si no es de abrir es de cerrar
 			t, _ := s.Pop()
-			if t != parcito.Get(c) {
+			v, _ := parcito.Get(c)
+			if t != v {
 				return false
 			}
 		}

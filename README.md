@@ -7,17 +7,22 @@ diversas estructuras de datos y algoritmos.
 
 ```text
 .
+├── bitmap
+│   └── main.go                # Ejemplo básico de uso de un bitmap
 ├── dictionary
 │   ├── estaBalanceada         # Solución del ejercicio de la guía 2 usando
 │   │   │                      # stack, set y diccionario.
 │   │   ├── balanceada_test.go
 │   │   └── main.go
 │   └── main.go                # Ejemplo básico de uso de un diccionario.
-├── stack
-│   ├── invertir_cadena        # Uso de una pila para invertir una cadena.
-│   │   └── main.go
-│   └── main.go                # Ejemplo básico de uso de una pila.
-├── README.md
-├── go.mod
-└── go.sum
+├── list
+│   └── main.go                # Ejemplo básico de uso de una lista
+├── queue
+│   └── main.go                # Ejemplo básico de uso de una cola
+├── set
+│   └── main.go                # Ejemplo básico de uso de un conjunto
+└── stack
+    ├── invertir_cadena
+    │   └── main.go            # Uso de una pila para invertir una cadena
+    └── main.go                # Ejemplo básico de uso de una pila
 ```
