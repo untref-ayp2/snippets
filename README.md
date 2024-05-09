@@ -25,6 +25,8 @@ diversas estructuras de datos y algoritmos.
 │   │   └── demo.go
 │   └── README.md
 ├── dictionary
+│   ├── eje2-parcial1-tm
+│   │   └── main.go
 │   ├── estaBalanceada
 │   │   ├── balanceada_test.go
 │   │   └── main.go
