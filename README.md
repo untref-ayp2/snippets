@@ -7,22 +7,32 @@ diversas estructuras de datos y algoritmos.
 
 ```text
 .
-├── bitmap
-│   └── main.go                # Ejemplo básico de uso de un bitmap
+├── composite-trencito
+│   ├── composite
+│   │   ├── circulo.go
+│   │   ├── figura-compuesta.go
+│   │   ├── figura.go
+│   │   ├── rectangulo.go
+│   │   └── triangulo.go
+│   ├── images
+│   │   └── composite-trencito.png
+│   ├── main
+│   │   └── demo.go
+│   └── README.md
 ├── dictionary
-│   ├── estaBalanceada         # Solución del ejercicio de la guía 2 usando
-│   │   │                      # stack, set y diccionario.
-│   │   ├── balanceada_test.go
-│   │   └── main.go
-│   └── main.go                # Ejemplo básico de uso de un diccionario.
-├── list
-│   └── main.go                # Ejemplo básico de uso de una lista
-├── queue
-│   └── main.go                # Ejemplo básico de uso de una cola
-├── set
-│   └── main.go                # Ejemplo básico de uso de un conjunto
+│   ├── eje2-parcial1-tm
+│   │   └── main.go
+│   ├── estaBalanceada
+│   │   ├── balanceada_test.go
+│   │   └── main.go
+│   └── main.go
+├── go.mod
+├── go.sum
+├── README.md
 └── stack
     ├── invertir_cadena
-    │   └── main.go            # Uso de una pila para invertir una cadena
-    └── main.go                # Ejemplo básico de uso de una pila
+    │   └── main.go
+    └── main.go
+
+10 directories, 17 files
 ```
