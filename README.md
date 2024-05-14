@@ -7,6 +7,11 @@ diversas estructuras de datos y algoritmos.
 
 ```text
 .
+├── adapter-ipod
+│   ├── ipod.go
+│   └── tracks.go
+├── bitmap
+│   └── main.go
 ├── composite-trencito
 │   ├── composite
 │   │   ├── circulo.go
@@ -26,11 +31,17 @@ diversas estructuras de datos y algoritmos.
 │   └── main.go
 ├── go.mod
 ├── go.sum
+├── list
+│   └── main.go
+├── queue
+│   └── main.go
 ├── README.md
+├── set
+│   └── main.go
 └── stack
     ├── invertir_cadena
     │   └── main.go
     └── main.go
 
-10 directories, 17 files
+14 directories, 22 files
 ```
