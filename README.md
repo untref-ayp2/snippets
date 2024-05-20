@@ -5,11 +5,15 @@ diversas estructuras de datos y algoritmos.
 
 ## Estructura de Snippets
 
+<!--
+Generado con el comando `tree -P "*.go" --prune` para listar solo archivos de Go
+y evitando listar carpetas vacías.
+-->
+
 ```text
-.
 ├── adapter-ipod
-│   ├── ipod.go
-│   └── tracks.go
+│   ├── demo-ipod.go
+│   └── ipod.go
 ├── bitmap
 │   └── main.go
 ├── composite-trencito
@@ -19,11 +23,8 @@ diversas estructuras de datos y algoritmos.
 │   │   ├── figura.go
 │   │   ├── rectangulo.go
 │   │   └── triangulo.go
-│   ├── images
-│   │   └── composite-trencito.png
-│   ├── main
-│   │   └── demo.go
-│   └── README.md
+│   └── main
+│       └── demo.go
 ├── dictionary
 │   ├── eje2-parcial1-tm
 │   │   └── main.go
@@ -31,19 +32,14 @@ diversas estructuras de datos y algoritmos.
 │   │   ├── balanceada_test.go
 │   │   └── main.go
 │   └── main.go
-├── go.mod
-├── go.sum
 ├── list
 │   └── main.go
 ├── queue
 │   └── main.go
-├── README.md
 ├── set
 │   └── main.go
 └── stack
     ├── invertir_cadena
     │   └── main.go
     └── main.go
-
-14 directories, 22 files
 ```
